@@ -1,0 +1,302 @@
+body{margin: 0;}
+.house-conainer {
+    display: flex;
+    width: 1112px;
+    height: 610px;
+    margin: 152px auto;
+    background: rgba(14, 14, 14, 0.9);
+    backdrop-filter: blur(32px);
+    border-radius: 15px;
+}
+.house-container-image {
+    position: absolute;
+    width: 591px;
+    height: 500px;
+    border-bottom-left-radius: 32px;
+    bottom: 0px;
+}
+.house-container-info {
+    color: aliceblue;
+    width: 497px;
+    height: 261px;
+    margin-top: 33px;
+    margin-left: 81px;
+}
+.house-info-title {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+}
+.house-info-adres {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #ABA6A6;
+}
+.house-class-name-adres {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #ffffff;
+}
+.house-class-name {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffff;
+}
+.house-info-pos {
+    display: inline-block;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ABA6A6;
+    margin-top: 13.05px;
+}
+.house-info-class {
+    width: 70px;
+    height: 44px;   
+    margin-right: 88px;
+}
+.house-info-type {
+    width: 66px;
+    height: 44px;   
+    margin-right: 86px;
+}
+.house-info-users {
+    width: 120px;
+    height: 44px;  
+}
+.house-info-gos-price {
+    width: 82px;
+    height: 44px;   
+    margin-right: 76px;
+}
+.house-info-nalog {
+    width: 54px;
+    height: 44px;   
+    margin-right: 98px;
+}
+.house-info-date-buy {
+    width: 170px;
+    height: 44px;  
+}
+.house-container-image-lock {
+    position: absolute;
+    left: 233px;
+    bottom: 100px;
+}
+.house-container-image-lock-vector {
+    position: absolute;
+    left: 283px;
+    bottom: 139px;
+}
+.house-info-door-open {
+    position:absolute;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+    left: 259px;
+    bottom: 55px;
+}
+.house-sklad-info-contant {
+    width: 435px;
+    height: 319.16px;   
+    margin-left: 38px;
+    margin-top: 54.84px;
+}
+.house-sklad-info-box {
+    display: flex;
+    width: 420px;
+    height: 103.16px;
+    align-items: flex-start;
+}
+.house-sklad-info-img {
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.house-sklad-info-img img{
+    position:absolute;
+}
+.safe-vector-3 {
+    left: 59.35%;
+    top: 16%;
+}
+.safe-elips-6 {
+    left: 617px;
+    top: 54.84px;
+}
+.safe-vector-4 {
+    left: 56.95%;
+    top: 10.9%;
+}
+.box-sklad-safe {
+    display: flex;
+    width: 91px;
+    height: 48px;
+    margin-top: 38.16px;
+    align-items: center;
+    justify-content: center;
+}
+.house-safe-name {
+    margin-top: 52px;
+    margin-left: 125px;
+    margin-right: 120px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.house-safe-quantity {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #E74C3C;
+    border-radius: 2px;
+}
+.fridge-elipse-7 {
+    left: 677px;
+}
+.house-fridge-name {
+    margin-top: 52px;
+    margin-left: 125px;
+    margin-right: 54px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.house-fridge-quantity {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    background: #27AE60;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.fridge-elips-6 {
+    left: 617px;
+    top: 163.84px;
+}
+.fridge-vector-6 {
+    left: 60%;
+    top: 33%;
+}
+.house-wardrobe-name {
+    margin-top: 52px;
+    margin-left: 125px;
+    margin-right: 118px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.house-wardrobe-quantity {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    background: #D8A728;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.wardrobe-elipse-8 {
+    left: 648px;
+}
+.wardrobe-elips-6 {
+    left: 617px;
+    top: 272.84px;
+}
+.wardrobe-vector-4 {
+    left: 56.95%;
+    top: 46.9%;
+}
+.wardrobe-vector-7 {
+    left: 60%;
+    top: 50%;
+}
+.house-buttons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 344px;
+    height: 46.45px;
+    margin-top: 60.55px;
+    margin-left: 77px;
+}
+.house-buttons a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1444px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.house-buttons-arenda {
+    width: 48px;
+    height: 46.45px; 
+}
+.house-buttons-door {
+    width: 48px;
+    height: 46.45px; 
+}
+.house-buttons-sell {
+    width: 48px;
+    height: 46.45px; 
+}
+.house-buttons-enter {
+    display: flex;
+    width: 382px;
+    height: 56px;
+    margin-top: 33px;
+    margin-left: 56px;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #FFFFFF;
+
+    background: #0A4DCE;
+    border-radius: 2px;
+}
+.close-house-content {
+    position: absolute;
+    top: 24px;
+    right: 33px;
+    cursor: pointer;
+}
